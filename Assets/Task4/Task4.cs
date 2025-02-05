@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+п»їusing System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -14,14 +14,14 @@ public class Task4 : MonoBehaviour {
     }
 
     private void Solution1(int[] numbers) {
-        print("Решение 1:");
+        print("Р РµС€РµРЅРёРµ 1:");
         var answer = numbers.Where(x => x > 0).Reverse();
-        print("Начальный массив: "+string.Join(", ", numbers));
-        print("Результат: " + string.Join(", ", answer));
+        print("РќР°С‡Р°Р»СЊРЅС‹Р№ РјР°СЃСЃРёРІ: "+string.Join(", ", numbers));
+        print("Р РµР·СѓР»СЊС‚Р°С‚: " + string.Join(", ", answer));
     }
 
     private void Solution2(int[] numbers) {
-        print("Решение 2:");
+        print("Р РµС€РµРЅРёРµ 2:");
 
         List<int> list = new List<int>();
 
@@ -31,8 +31,8 @@ public class Task4 : MonoBehaviour {
             }
         }
 
-        print("Начальный массив: " + string.Join(", ", numbers));
-        print("Результат: " + string.Join(", ", list));
+        print("РќР°С‡Р°Р»СЊРЅС‹Р№ РјР°СЃСЃРёРІ: " + string.Join(", ", numbers));
+        print("Р РµР·СѓР»СЊС‚Р°С‚: " + string.Join(", ", list));
     }
 
 }
